@@ -47,6 +47,11 @@ public class Set {
         p3.add("adios"); // Pone primero el adios porque tiene una mayuscula
         p3.add("Hola");
 
+        TreeSet <Integer> p4 = new TreeSet <Integer>();
+
+        p4.add(4);
+        p4.add(2);
+        p4.add(5);
 
 
         imprimirCol(hs);
@@ -59,6 +64,7 @@ public class Set {
 
         imprimirCol(p3);
 
+        imprimirCol(p4);
     }
     public static void imprimirCol (Collection col) { //Tambien podemos poner ArrayList pero no podriamos utilizar Set, con collection te coge todo
         if (col.isEmpty())
