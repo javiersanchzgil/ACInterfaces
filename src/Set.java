@@ -44,8 +44,8 @@ public class Set {
         TreeSet <String> p3 = new TreeSet <String>(); // TreeSet hereda de SortedSet y este de Set y tiene otro metodos
 
         p3.add("hola");
-        p3.add("Adios"); // Pone primero el adios porque tiene una mayuscula
-        p3.add("hola");
+        p3.add("adios"); // Pone primero el adios porque tiene una mayuscula
+        p3.add("Hola");
 
 
 
