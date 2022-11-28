@@ -35,6 +35,7 @@ public class EjerArrayLinked {
         ll.add(88);
         ll.add(88);
 
+        System.out.println("LinkedList");
         imprimirCol2(ll,'a');
         System.out.println("\n\n");
         imprimirCol2(ll,'b');
